@@ -1,5 +1,5 @@
 <?php
-$link = mysql_connect('mysql://root:ONQFOyfGxrCmVopeBSVkhgOALDOfxuHo@junction.proxy.rlwy.net:57085/railway');
+$link = mysql_connect('localhost', 'root', 'root')
 if (!$link) 
 {
 	die('Não pode ser conectado: ' . mysql_error());
